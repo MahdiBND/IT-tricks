@@ -1,0 +1,33 @@
+
+C:\> cd C:\Windows\Performance\WinSAT\DataStore
+
+C:\Windows\Performance\WinSAT\DataStore>mkdir Saved
+
+C:\Windows\Performance\WinSAT\DataStore>copy * Saved
+
+C:\Windows\Performance\WinSAT\DataStore>del *
+C:\Windows\Performance\WinSAT\DataStore\*, Are you sure (Y/N)? y
+
+C:\Windows\Performance\WinSAT\DataStore> cd \
+
+C:\>winsat formal -v
+
+Winsat will take a couple of minutes to run. Once winsat has completed
+running, it will return to a command prompt.
+
+C:\>
+
+Type "exit" to leave the Command Prompt.
+
+Now, go back to Control Panel, System and Maintenance, System, Check your
+system's Windows Experience Index base score. You should see updated
+performance data.
+
+Obviously if you get any error messages along the way, make a note of them
+and report back to the newsgroup.
+
+You can also catenate the verbose output of Winsat to a file:
+
+C:\>winsat formal -v > MyPerf.log
+
+and inspect the myperf.log to get all the grizzly details. Run "winsat /?'
