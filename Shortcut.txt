@@ -1,1 +1,0 @@
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons]@string(29)=%windir%\System32\shell32.dll,-50

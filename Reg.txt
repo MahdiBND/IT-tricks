@@ -1,3 +1,0 @@
-
-
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SafeBoot\Minimal\MSIServer]@="Service"
