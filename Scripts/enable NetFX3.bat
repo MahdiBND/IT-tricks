@@ -1,0 +1,1 @@
+dism /online /enable-feature /featurename:NetFx3 /All /Source:X:\D\Windows\Windows 10 Pro\sources\sxs /limitAccess
